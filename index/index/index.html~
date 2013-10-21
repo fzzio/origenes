@@ -305,90 +305,6 @@
 
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="../assets/img/index/slide-01.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Hola,</h1>
-              <p class="lead">¿Estas para hacer un tracking genealógico?</p>
-              <input type="text" class="CI" value="Cédula"/>
-              <a class="btn btn-large btn-primary" href="../index/arbol.html">Ir</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="../assets/img/index/slide-02.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>¿Sabías que...</h1>
-              <p class="lead">la calvicie por causas genéticas se hereda por parte de madre?.</p>
-              <a class="btn btn-large btn-primary" href="http://www.trendenciashombre.com/cabello/datos-interesantes-sobre-la-causa-genetica-de-la-calvicie">Leer artículo</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="../assets/img/index/slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>...Y que </h1>
-              <p class="lead">los humanos portamos 75 enfermedades hereditarias.</p>
-              <a class="btn btn-large btn-primary" href="http://www.eluniversal.com.mx/articulos/61275.html">Leer artículo</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Info 1</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Info 2</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Info 3</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
-
-
-     
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -414,5 +330,45 @@
       }(window.jQuery)
     </script>
     <script src="../assets/js/holder/holder.js"></script>
+    
+
+<div id="body-container" class="flotr2-index">
+<div id="header-container"><div id="header"><font><font>Probabilidad de heredar enfermedad</font></font></div></div>
+
+
+<div id="content-container">
+    <div id="content">
+        <div id="examples"><div class="flotr-examples flotr-examples-small flotr-examples-collapsed"><div class="flotr-examples-container" style="display: block;"><div class="flotr-example" style="display: block;"><div class="flotr-example-label flotr-example-title"></div><div class="flotr-example-description"></div><div class="flotr-example-editor"><div class="editor javascript">
+		
+		<div class="render" id="editor-render-0" style="position: relative;"><canvas class="flotr-canvas" width="600" height="400" style="position: absolute; left: 0px; top: 0px; width: 600px; height: 400px;"></canvas><canvas class="flotr-overlay" width="600" height="400" style="position: absolute; left: 0px; top: 0px; width: 600px; height: 400px;"></canvas><div style="position: absolute; top: -10000px;"><div style="font-size:smaller;" class="flotr-grid-label flotr-dummy-div">-0.50</div></div><div style="position: absolute; top: -10000px;"><div style="font-size:smaller;" class="flotr-grid-label flotr-dummy-div">10.0</div></div><div class="flotr-labels" style="font-size: smaller; color: rgb(84, 84, 84);"><div style="position:absolute; text-align:center;  top:383px;  left:0.5px;  width:57px;    " class="flotr-grid-label first flotr-grid-label-x">-0.50</div><div style="position:absolute; text-align:center;  top:383px;  left:63.83333333333334px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">0.00</div><div style="position:absolute; text-align:center;  top:383px;  left:127.16666666666669px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">0.50</div><div style="position:absolute; text-align:center;  top:383px;  left:190.5px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">1.00</div><div style="position:absolute; text-align:center;  top:383px;  left:253.83333333333337px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">1.50</div><div style="position:absolute; text-align:center;  top:383px;  left:317.1666666666667px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">2.00</div><div style="position:absolute; text-align:center;  top:383px;  left:380.5px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">2.50</div><div style="position:absolute; text-align:center;  top:383px;  left:443.83333333333337px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">3.00</div><div style="position:absolute; text-align:center;  top:383px;  left:507.16666666666674px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">3.50</div><div style="position:absolute; text-align:center;  top:383px;  left:570.5px;  width:57px;    " class="flotr-grid-label last flotr-grid-label-x">4.00</div><div style="position:absolute; text-align:right;  top:372px;  left:0px;  width:26px;    " class="flotr-grid-label first flotr-grid-label-y">0.0</div><div style="position:absolute; text-align:right;  top:303.0909090909091px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">2.0</div><div style="position:absolute; text-align:right;  top:234.1818181818182px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">4.0</div><div style="position:absolute; text-align:right;  top:165.27272727272728px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">6.0</div><div style="position:absolute; text-align:right;  top:96.36363636363637px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">8.0</div><div style="position:absolute; text-align:right;  top:27.454545454545496px;  left:0px;  width:26px;    " class="flotr-grid-label last flotr-grid-label-y">10.0</div></div><div class="flotr-titles"><div class="flotr-axis-title" style="font-weight:bold;"></div></div><div style="opacity: 0.7; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); position: absolute; padding: 2px 8px; border-radius: 4px 4px 4px 4px; white-space: nowrap; bottom: 197.273px; top: auto; left: 445.667px; right: auto; display: none;" class="flotr-mouse-value">(3.0, 10.0)</div></div>
+				
+<div class="flotr-examples-container"></div></div></div>
+		</div></div></div></div></div><div class="flotr-examples flotr-examples-small flotr-examples-collapsed">
+    </div>
+</div>
+
+
+</div> 
+<script src="Or%C3%ADgenes_files/ga_003.js" async="" type="text/javascript"></script><script src="Or%C3%ADgenes_files/ga_002.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="Or%C3%ADgenes_files/ga.js"></script><script type="text/javascript">
+  var HSD_BASE = '/';
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15129441-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script src="Or%C3%ADgenes_files/hsd.js"></script>
+<!--[if IE]>
+<script src="/static/lib/FlashCanvas/bin/flashcanvas.js"></script>
+<![endif]-->
+    <script src="Or%C3%ADgenes_files/hsd-flotr2.js"></script>
+    <script src="Or%C3%ADgenes_files/hsd-flotr2-examples.js"></script><div id="goog-gt-tt" class="goog-tooltip skiptranslate" dir="ltr" style="visibility: hidden; left: 245px; top: 268px; display: none;"><div style="padding: 8px;"><div><div class="logo"><img src="Or%C3%ADgenes_files/translate-32.png" height="20" width="20"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Texto original</h1></div><div class="middle" style="padding: 8px;"><div class="original-text">developers of fine software.</div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Sugiere una traducción mejor</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none; opacity: 0;"></div></div>
+
+   
+    
   </body>
 </html>

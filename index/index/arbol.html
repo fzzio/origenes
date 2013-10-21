@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<!-- saved from url=(0060)http://www.humblesoftware.com/flotr2/#!basic-bars-horizontal -->
+<html class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Orígenes</title>
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Flotr2 HTML5 and Canvas graphing library examples page.">
+    
+    <link rel="stylesheet" type="text/css" href="Or%C3%ADgenes_files/hsd.css">
+    <link rel="stylesheet" type="text/css" href="Or%C3%ADgenes_files/hsd-flotr2.css">
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="Or%C3%ADgenes_files/translateelement.css"></head>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -279,12 +290,21 @@
 
     <!-- NAVBAR
     ================================================== -->
-    <div class="navbar-wrapper">
+    <div class="navbar-wrapper" ;      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px;>
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
+      <div class="container"; >
 
         <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
+          <div class="navbar-inner";      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);>
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
               <span class="icon-bar"></span>
@@ -380,3 +400,47 @@
     <script src="../assets/js/holder/holder.js"></script>
   </body>
 </html>
+
+
+
+
+
+<body>
+<div id="body-container" class="flotr2-index">
+<div id="header-container"><div id="header"><font><font>Probabilidad de heredar enfermedad</font></font></div></div>
+
+
+<div id="content-container">
+    <div id="content">
+        <div id="examples"><div class="flotr-examples flotr-examples-small flotr-examples-collapsed"><div class="flotr-examples-container" style="display: block;"><div class="flotr-example" style="display: block;"><div class="flotr-example-label flotr-example-title"></div><div class="flotr-example-description"></div><div class="flotr-example-editor"><div class="editor javascript">
+		
+		<div class="render" id="editor-render-0" style="position: relative;"><canvas class="flotr-canvas" width="600" height="400" style="position: absolute; left: 0px; top: 0px; width: 600px; height: 400px;"></canvas><canvas class="flotr-overlay" width="600" height="400" style="position: absolute; left: 0px; top: 0px; width: 600px; height: 400px;"></canvas><div style="position: absolute; top: -10000px;"><div style="font-size:smaller;" class="flotr-grid-label flotr-dummy-div">-0.50</div></div><div style="position: absolute; top: -10000px;"><div style="font-size:smaller;" class="flotr-grid-label flotr-dummy-div">10.0</div></div><div class="flotr-labels" style="font-size: smaller; color: rgb(84, 84, 84);"><div style="position:absolute; text-align:center;  top:383px;  left:0.5px;  width:57px;    " class="flotr-grid-label first flotr-grid-label-x">-0.50</div><div style="position:absolute; text-align:center;  top:383px;  left:63.83333333333334px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">0.00</div><div style="position:absolute; text-align:center;  top:383px;  left:127.16666666666669px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">0.50</div><div style="position:absolute; text-align:center;  top:383px;  left:190.5px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">1.00</div><div style="position:absolute; text-align:center;  top:383px;  left:253.83333333333337px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">1.50</div><div style="position:absolute; text-align:center;  top:383px;  left:317.1666666666667px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">2.00</div><div style="position:absolute; text-align:center;  top:383px;  left:380.5px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">2.50</div><div style="position:absolute; text-align:center;  top:383px;  left:443.83333333333337px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">3.00</div><div style="position:absolute; text-align:center;  top:383px;  left:507.16666666666674px;  width:57px;    " class="flotr-grid-label flotr-grid-label-x">3.50</div><div style="position:absolute; text-align:center;  top:383px;  left:570.5px;  width:57px;    " class="flotr-grid-label last flotr-grid-label-x">4.00</div><div style="position:absolute; text-align:right;  top:372px;  left:0px;  width:26px;    " class="flotr-grid-label first flotr-grid-label-y">0.0</div><div style="position:absolute; text-align:right;  top:303.0909090909091px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">2.0</div><div style="position:absolute; text-align:right;  top:234.1818181818182px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">4.0</div><div style="position:absolute; text-align:right;  top:165.27272727272728px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">6.0</div><div style="position:absolute; text-align:right;  top:96.36363636363637px;  left:0px;  width:26px;    " class="flotr-grid-label flotr-grid-label-y">8.0</div><div style="position:absolute; text-align:right;  top:27.454545454545496px;  left:0px;  width:26px;    " class="flotr-grid-label last flotr-grid-label-y">10.0</div></div><div class="flotr-titles"><div class="flotr-axis-title" style="font-weight:bold;"></div></div><div style="opacity: 0.7; background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); position: absolute; padding: 2px 8px; border-radius: 4px 4px 4px 4px; white-space: nowrap; bottom: 197.273px; top: auto; left: 445.667px; right: auto; display: none;" class="flotr-mouse-value">(3.0, 10.0)</div></div>
+				
+<div class="flotr-examples-container"></div></div></div>
+		</div></div></div></div></div><div class="flotr-examples flotr-examples-small flotr-examples-collapsed">
+    </div>
+</div>
+
+
+</div> 
+<script src="Or%C3%ADgenes_files/ga_003.js" async="" type="text/javascript"></script><script src="Or%C3%ADgenes_files/ga_002.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="Or%C3%ADgenes_files/ga.js"></script><script type="text/javascript">
+  var HSD_BASE = '/';
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15129441-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script src="Or%C3%ADgenes_files/hsd.js"></script>
+<!--[if IE]>
+<script src="/static/lib/FlashCanvas/bin/flashcanvas.js"></script>
+<![endif]-->
+    <script src="Or%C3%ADgenes_files/hsd-flotr2.js"></script>
+    <script src="Or%C3%ADgenes_files/hsd-flotr2-examples.js"></script><div id="goog-gt-tt" class="goog-tooltip skiptranslate" dir="ltr" style="visibility: hidden; left: 245px; top: 268px; display: none;"><div style="padding: 8px;"><div><div class="logo"><img src="Or%C3%ADgenes_files/translate-32.png" height="20" width="20"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Texto original</h1></div><div class="middle" style="padding: 8px;"><div class="original-text">developers of fine software.</div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Sugiere una traducción mejor</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none; opacity: 0;"></div></div>
+
+
+</body></html>
